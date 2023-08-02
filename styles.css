@@ -27,9 +27,15 @@ img {
     color: lightseagreen;
 }
 
+.heading.two {
+    font-size: 25px;
+    color: black;
+}
+
 .list {
     font-size: 25px;
     list-style: none;
+    line-height: 1.5;
 }
 
 .list a {
