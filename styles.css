@@ -17,9 +17,12 @@ img {
     height: auto;
 }
 
+.heading, li {
+    font-family: Georgia, 'Times New Roman', Arial;
+}
+
 .heading {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Arial;
     font-size: 60px;
     color: lightseagreen;
 }
