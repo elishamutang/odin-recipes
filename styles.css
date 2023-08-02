@@ -27,12 +27,12 @@ img {
     color: lightseagreen;
 }
 
-li {
+.list {
     font-size: 25px;
     list-style: none;
 }
 
-a {
+.list a {
     text-decoration: none;
     color: lightseagreen;
 }
