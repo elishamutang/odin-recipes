@@ -18,7 +18,12 @@
 }
 
 img {
-    width: 500px;
+    width: 400px;
+    height: auto;
+}
+
+#front-img {
+    width: 700px;
     height: auto;
 }
 
