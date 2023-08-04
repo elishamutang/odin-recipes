@@ -12,8 +12,13 @@
     padding-top: 0;
 }
 
+.container.ingredients h2,
+.container.steps h2{
+    color: lightseagreen;
+}
+
 img {
-    width: 600px;
+    width: 500px;
     height: auto;
 }
 
@@ -29,7 +34,7 @@ img {
 
 .heading.two {
     font-size: 25px;
-    color: black;
+    color: lightseagreen;
 }
 
 .list {
@@ -41,4 +46,8 @@ img {
 .list a {
     text-decoration: none;
     color: lightseagreen;
+}
+
+ul, ol {
+    line-height: 2.0;
 }
