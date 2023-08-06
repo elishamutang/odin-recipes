@@ -7,27 +7,25 @@ body {
 .container, .heading {
     /* width: 800px; */
     height: auto;
+    width: 800px;
     /* border: 2px solid red; */
 }
 
 .container.img {
-    display: inline-block;
-    vertical-align: top;
+    margin: 20px auto;
+    width: 400px;
 }
 
 #front-img {
-    width: 600px;
+    width: 400px;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+    border: 2px solid green;
 }
 
 img {
     width: 400px;
     height: auto;
-    display: inline-block;
     border: 3px solid black;
 }
 
@@ -46,6 +44,8 @@ h1.heading {
     border: 5px double green;
     width: 50%;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
@@ -59,16 +59,20 @@ h1.heading {
     font-size: 20px;
     line-height: 1.5;
     color: lightseagreen;
-    display: inline-block;
     text-align: justify;
-    width: 60%;
+    width: 50%;
     height: auto;
-    margin: 0 5px 0 30px;
+    margin: 0 auto;
+    padding: 5px;
     /* border: 2px solid black; */
 }
 
 #main-page {
-    margin: 30px auto;
+    margin: auto;
+}
+
+#nav {
+    margin: auto;
 }
 
 .list a {
@@ -81,14 +85,23 @@ ul, ol {
     border: 2px dotted lightblue;
     width: 400px;
     margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
 }
 
 .list {
     font-size: 25px;
     line-height: 1.5;
     text-align: center;
+    width: 50%;
     margin: 30px auto;
-    border: none;
+    /* border: 2px solid red; */
 }
 
 li {
@@ -96,7 +109,24 @@ li {
     margin: 0;
 }
 
-.container.steps ol {
-    width: 700px;
-    margin-bottom: 50px;
+.container.steps {
+    /* border: 2px solid red; */
+    width: auto;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: -240px;
+    margin-bottom: 30px;
+}
+
+.container.ingredients {
+    /* border: 2px solid red; */
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-right: 250px;
+    margin-bottom: 30px;
+    margin-left: 280px;
+
 }
