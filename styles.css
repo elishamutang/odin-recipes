@@ -10,6 +10,8 @@
     padding-top: 40px;
     padding-bottom: 40px;
     padding-top: 0;
+    width: 400px;
+    height: auto;
 }
 
 .container.ingredients h2,
@@ -19,11 +21,6 @@
 
 img {
     width: 400px;
-    height: auto;
-}
-
-#front-img {
-    width: 700px;
     height: auto;
 }
 
