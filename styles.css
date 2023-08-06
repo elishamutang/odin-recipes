@@ -1,55 +1,74 @@
-.container {
-    width: 800px;
+body {
+    box-sizing: border-box;
+    margin: 50px 200px;
+    /* border: 2px solid black; */
+}
+
+.container, .heading {
+    /* width: 800px; */
     height: auto;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    /* border: 2px solid red; */
 }
 
 .container.img {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-top: 0;
-    width: 400px;
-    height: auto;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.container.ingredients h2,
-.container.steps h2{
-    color: lightseagreen;
+#front-img {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 img {
     width: 400px;
     height: auto;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.container.ingredients h2,
+.container.steps h2{
+    color: lightseagreen;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .heading, li {
     font-family: Georgia, 'Times New Roman', Arial;
 }
 
+h1.heading {
+    border: 5px double green;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
 .heading {
     text-align: center;
     font-size: 60px;
     color: lightseagreen;
+    padding: 5px;
 }
 
 .heading.two {
     font-size: 20px;
     line-height: 1.5;
     color: lightseagreen;
-    display: flex;
-    justify-content: center;
-    width: 600px;
+    display: inline-block;
+    text-align: justify;
+    width: 60%;
     height: auto;
-    margin: auto;
-    padding-bottom: 20px;
+    margin: 0 5px 0 30px;
+    /* border: 2px solid black; */
 }
 
-.list {
-    font-size: 25px;
-    list-style: none;
-    line-height: 1.5;
+#main-page {
+    margin: 30px auto;
 }
 
 .list a {
@@ -59,4 +78,25 @@ img {
 
 ul, ol {
     line-height: 2.0;
+    border: 2px dotted lightblue;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.list {
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 30px auto;
+    border: none;
+}
+
+li {
+    text-align: left;
+    margin: 0;
+}
+
+.container.steps ol {
+    width: 700px;
+    margin-bottom: 50px;
 }
