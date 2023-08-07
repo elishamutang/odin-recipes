@@ -11,3 +11,4 @@ This project is for the Foundations Course on The Odin Project, which focuses on
 - Difference between Block and Inline elements and how they affect the layout of a page.
 - Box model (standard box model and alternative box model).
 - Positioning of elements.
+- Google's DevTools to debug HTML/CSS.
