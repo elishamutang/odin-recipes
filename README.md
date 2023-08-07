@@ -1,6 +1,6 @@
 # First project from The Odin Project
 
-This project is for the Foundations Course on The Odin Project, which focuses on creating a 'Recipe' website using HTML!
+This project is for the Foundations Course on The Odin Project, which focuses on creating a 'Recipe' website using HTML & CSS!
 
 ## Things I learnt:
 - Using VSCode and utilizing the HTML boilerplate shortcut by typing '!'.
