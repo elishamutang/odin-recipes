@@ -1,6 +1,6 @@
 # First project from The Odin Project
 
-This project is for the Foundations Course on The Odin Project, which focuses on creating a 'Recipe' website using HTML & CSS!
+This project is for the Foundations Course on The Odin Project, which focuses on creating a static 'Recipe' website using HTML & CSS!
 
 Refer to the 'About' section on your right for a live preview :)
 
